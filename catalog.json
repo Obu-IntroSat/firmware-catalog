@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "catalog_version": 1,
+  "repositories": [
+    {
+      "name": "firmware-e_sbs_1.x",
+      "url": "https://github.com/Obu-IntroSat/firmware-e_sbs_1.x",
+      "description": "Прошивка платы имитатора солнечных батарей для версии 1.4",
+      "device": "STM32",
+      "file_pattern": "*.elf",
+      "target": {
+        "board": "e_sbs 1.4",
+        "mcu": "STM32F103C8T6",
+        "chip_ids": [
+          1040
+        ],
+        "flash_start": 134217728,
+        "flash_size": 65536,
+        "sram_size": 20480,
+        "source_sha": "c62cfff916e26e2e83188682260129a814f5c75e"
+      }
+    },
+    {
+      "name": "firmware-pl_psm_1.x",
+      "url": "https://github.com/Obu-IntroSat/firmware-pl_psm_1.x",
+      "description": "Прошивка модуля pl_psm 1.x",
+      "device": "STM32",
+      "file_pattern": "*.elf",
+      "target": {
+        "board": "pl_psm 1.x",
+        "mcu": "STM32F103C8T6",
+        "chip_ids": [
+          1040
+        ],
+        "flash_start": 134217728,
+        "flash_size": 65536,
+        "sram_size": 20480,
+        "source_sha": "34eabed9bcb5cbcdabe20585f44f4e225d66085f"
+      }
+    },
+    {
+      "name": "firmware-bluepill_blink",
+      "url": "https://github.com/Obu-IntroSat/firmware-bluepill_blink",
+      "description": "Прошивка для Blue Pill (мигание)",
+      "device": "STM32",
+      "file_pattern": "*.bin",
+      "target": {
+        "board": "Blue Pill",
+        "mcu": "STM32F103C8T6",
+        "chip_ids": [
+          1040
+        ],
+        "flash_start": 134217728,
+        "flash_size": 65536,
+        "sram_size": 20480,
+        "source_sha": "aa131ee30598b3c744b31fb6bab80f148eac7706"
+      }
+    }
+  ]
+}
